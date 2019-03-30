@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Regular.ttf">
+            <string>Roboto-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="SocialConnectCollectionViewCell" id="qoK-WQ-kg5" customClass="SocialConnectCollectionViewCell" customModule="Sabitha_Indra_Reddy" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="184" height="50"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                <rect key="frame" x="0.0" y="0.0" width="184" height="50"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1Pl-Hg-Jff">
+                        <rect key="frame" x="5" y="5" width="174" height="40"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kz8-vO-XlX">
+                                <rect key="frame" x="0.0" y="0.0" width="174" height="40"/>
+                                <color key="backgroundColor" name="India Green"/>
+                                <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="Kz8-vO-XlX" secondAttribute="trailing" id="AUa-hV-ar2"/>
+                            <constraint firstItem="Kz8-vO-XlX" firstAttribute="leading" secondItem="1Pl-Hg-Jff" secondAttribute="leading" id="Bee-0U-6hs"/>
+                            <constraint firstItem="Kz8-vO-XlX" firstAttribute="top" secondItem="1Pl-Hg-Jff" secondAttribute="top" id="e6Q-pR-Aii"/>
+                            <constraint firstAttribute="bottom" secondItem="Kz8-vO-XlX" secondAttribute="bottom" id="gWt-UF-BKm"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="1Pl-Hg-Jff" firstAttribute="leading" secondItem="qoK-WQ-kg5" secondAttribute="leading" constant="5" id="DT3-xO-y2D"/>
+                <constraint firstAttribute="trailing" secondItem="1Pl-Hg-Jff" secondAttribute="trailing" constant="5" id="bs9-6q-EhG"/>
+                <constraint firstAttribute="bottom" secondItem="1Pl-Hg-Jff" secondAttribute="bottom" constant="5" id="klt-K2-uOA"/>
+                <constraint firstItem="1Pl-Hg-Jff" firstAttribute="top" secondItem="qoK-WQ-kg5" secondAttribute="top" constant="5" id="oWb-4w-2so"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="tpc-KO-Rmq"/>
+            <size key="customSize" width="184" height="50"/>
+            <connections>
+                <outlet property="backView" destination="1Pl-Hg-Jff" id="XVg-Vb-Rcy"/>
+                <outlet property="socialNameLabel" destination="Kz8-vO-XlX" id="n1R-BM-jZP"/>
+            </connections>
+            <point key="canvasLocation" x="-244" y="-82"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <namedColor name="India Green">
+            <color red="0.070000000298023224" green="0.52999997138977051" blue="0.029999999329447746" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

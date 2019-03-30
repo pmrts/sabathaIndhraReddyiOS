@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Medium.ttf">
+            <string>Roboto-Medium</string>
+        </array>
+        <array key="Roboto-Regular.ttf">
+            <string>Roboto-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="EventsTableViewCell" rowHeight="134" id="SjJ-2E-O6E" customClass="EventsTableViewCell" customModule="Sabitha_Indra_Reddy" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="134"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="SjJ-2E-O6E" id="ich-6G-l07">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="133.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7EZ-5y-FH7">
+                        <rect key="frame" x="10" y="5" width="355" height="123.5"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Kiran_Bedi_BJP" translatesAutoresizingMaskIntoConstraints="NO" id="hqW-c3-VaC">
+                                <rect key="frame" x="5" y="5" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="OMi-cZ-X9c"/>
+                                    <constraint firstAttribute="width" constant="100" id="ZZ5-AD-381"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Event Heading One" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qB8-hg-5I3">
+                                <rect key="frame" x="115" y="10" width="235" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="cKh-qE-g5h"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="15"/>
+                                <color key="textColor" name="FlagBlue"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Timer" translatesAutoresizingMaskIntoConstraints="NO" id="16f-V2-9H3">
+                                <rect key="frame" x="115" y="64" width="14" height="14"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="14" id="XBE-uM-wxY"/>
+                                    <constraint firstAttribute="height" constant="14" id="x1C-is-09w"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="11 : 00 AM" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HL9-LY-d0m">
+                                <rect key="frame" x="135" y="63" width="57.5" height="16"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="16" id="BHG-H6-rb2"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="12"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Address" translatesAutoresizingMaskIntoConstraints="NO" id="7P2-hD-Fm6">
+                                <rect key="frame" x="115" y="95" width="14" height="14"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="14" id="2Ae-ks-Q8u"/>
+                                    <constraint firstAttribute="height" constant="14" id="q9H-VG-cbh"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Neque porro" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sWq-kY-Pm7">
+                                <rect key="frame" x="135" y="85" width="215" height="33.5"/>
+                                <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="12"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="20 - 12 - 2017" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PDn-V0-v6S">
+                                <rect key="frame" x="222" y="63" width="73" height="16"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="16" id="hDc-Vk-w49"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="12"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Calender" translatesAutoresizingMaskIntoConstraints="NO" id="6Dh-QL-Glf">
+                                <rect key="frame" x="202" y="64" width="14" height="14"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="14" id="Inj-EE-Cha"/>
+                                    <constraint firstAttribute="width" constant="14" id="SGc-F3-Els"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="hqW-c3-VaC" firstAttribute="top" secondItem="7EZ-5y-FH7" secondAttribute="top" constant="5" id="3T1-0w-aDc"/>
+                            <constraint firstItem="HL9-LY-d0m" firstAttribute="leading" secondItem="16f-V2-9H3" secondAttribute="trailing" constant="6" id="4GR-1B-Eat"/>
+                            <constraint firstItem="qB8-hg-5I3" firstAttribute="leading" secondItem="hqW-c3-VaC" secondAttribute="trailing" constant="10" id="DFG-yp-rMg"/>
+                            <constraint firstItem="16f-V2-9H3" firstAttribute="top" secondItem="qB8-hg-5I3" secondAttribute="bottom" constant="10" id="KFp-Gh-041"/>
+                            <constraint firstItem="PDn-V0-v6S" firstAttribute="centerY" secondItem="6Dh-QL-Glf" secondAttribute="centerY" id="M5x-WM-m2B"/>
+                            <constraint firstItem="HL9-LY-d0m" firstAttribute="centerY" secondItem="16f-V2-9H3" secondAttribute="centerY" id="Q1b-UB-gLF"/>
+                            <constraint firstAttribute="bottom" secondItem="sWq-kY-Pm7" secondAttribute="bottom" constant="5" id="QAd-Ja-JoJ"/>
+                            <constraint firstItem="sWq-kY-Pm7" firstAttribute="centerY" secondItem="7P2-hD-Fm6" secondAttribute="centerY" id="QsR-M9-BqX"/>
+                            <constraint firstItem="6Dh-QL-Glf" firstAttribute="centerY" secondItem="HL9-LY-d0m" secondAttribute="centerY" id="Sbm-dz-kkf"/>
+                            <constraint firstItem="PDn-V0-v6S" firstAttribute="leading" secondItem="6Dh-QL-Glf" secondAttribute="trailing" constant="6" id="WIp-Bm-mGZ"/>
+                            <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="hqW-c3-VaC" secondAttribute="bottom" constant="8" id="ZA3-WA-rLh"/>
+                            <constraint firstItem="sWq-kY-Pm7" firstAttribute="top" secondItem="PDn-V0-v6S" secondAttribute="bottom" constant="6" id="eDH-sL-5Va"/>
+                            <constraint firstItem="7P2-hD-Fm6" firstAttribute="leading" secondItem="hqW-c3-VaC" secondAttribute="trailing" constant="10" id="kQC-a8-7Kf"/>
+                            <constraint firstItem="hqW-c3-VaC" firstAttribute="leading" secondItem="7EZ-5y-FH7" secondAttribute="leading" constant="5" id="lnN-fj-JCd"/>
+                            <constraint firstAttribute="trailing" secondItem="qB8-hg-5I3" secondAttribute="trailing" constant="5" id="nc2-fM-O4Y"/>
+                            <constraint firstAttribute="trailing" secondItem="sWq-kY-Pm7" secondAttribute="trailing" constant="5" id="oRi-Km-y90"/>
+                            <constraint firstItem="16f-V2-9H3" firstAttribute="leading" secondItem="hqW-c3-VaC" secondAttribute="trailing" constant="10" id="rU4-if-ETM"/>
+                            <constraint firstItem="6Dh-QL-Glf" firstAttribute="leading" secondItem="HL9-LY-d0m" secondAttribute="trailing" constant="9.5" id="stY-08-hJx"/>
+                            <constraint firstItem="qB8-hg-5I3" firstAttribute="top" secondItem="7EZ-5y-FH7" secondAttribute="top" constant="10" id="tIu-cd-1FG"/>
+                            <constraint firstItem="sWq-kY-Pm7" firstAttribute="leading" secondItem="7P2-hD-Fm6" secondAttribute="trailing" constant="6" id="xD5-wj-so4"/>
+                            <constraint firstItem="sWq-kY-Pm7" firstAttribute="leading" secondItem="hqW-c3-VaC" secondAttribute="trailing" constant="30" id="xF9-dg-489"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="7EZ-5y-FH7" secondAttribute="bottom" constant="5" id="P2d-XV-geT"/>
+                    <constraint firstAttribute="trailing" secondItem="7EZ-5y-FH7" secondAttribute="trailing" constant="10" id="d9d-b0-eLF"/>
+                    <constraint firstItem="7EZ-5y-FH7" firstAttribute="top" secondItem="ich-6G-l07" secondAttribute="top" constant="5" id="lhg-tp-1pV"/>
+                    <constraint firstItem="7EZ-5y-FH7" firstAttribute="leading" secondItem="ich-6G-l07" secondAttribute="leading" constant="10" id="qqZ-ep-2FJ"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="eventsAddressLabel" destination="sWq-kY-Pm7" id="3Y0-0m-Ulv"/>
+                <outlet property="eventsBackgroundView" destination="7EZ-5y-FH7" id="tR3-7Q-DvQ"/>
+                <outlet property="eventsDateLabel" destination="PDn-V0-v6S" id="Br2-JY-hsy"/>
+                <outlet property="eventsHeadingLabel" destination="qB8-hg-5I3" id="uhl-OQ-9Jn"/>
+                <outlet property="eventsImageView" destination="hqW-c3-VaC" id="4k8-17-gk6"/>
+                <outlet property="eventsTimeLabel" destination="HL9-LY-d0m" id="QC9-61-pKk"/>
+            </connections>
+            <point key="canvasLocation" x="208.5" y="143"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Address" width="12.800000190734863" height="12.800000190734863"/>
+        <image name="Calender" width="19.200000762939453" height="19.200000762939453"/>
+        <image name="Kiran_Bedi_BJP" width="650" height="488"/>
+        <image name="Timer" width="19.200000762939453" height="19.200000762939453"/>
+        <namedColor name="FlagBlue">
+            <color red="0.0" green="0.0" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

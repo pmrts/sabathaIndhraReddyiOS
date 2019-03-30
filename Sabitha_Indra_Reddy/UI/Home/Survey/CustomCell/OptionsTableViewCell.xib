@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Regular.ttf">
+            <string>Roboto-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="OptionsTableViewCell" id="NSn-lS-415" customClass="OptionsTableViewCell" customModule="Sabitha_Indra_Reddy" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="NSn-lS-415" id="zIS-9m-cBP">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DHg-eR-l40">
+                        <rect key="frame" x="10" y="5" width="355" height="33.5"/>
+                        <subviews>
+                            <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eLM-Mx-X5r">
+                                <rect key="frame" x="60" y="5" width="285" height="23.5"/>
+                                <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D2R-bJ-2No">
+                                <rect key="frame" x="20" y="3" width="30" height="27.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="30" id="Uhv-47-5Mr"/>
+                                </constraints>
+                                <state key="normal" image="unchecked"/>
+                                <state key="selected" image="tickbox"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="eLM-Mx-X5r" firstAttribute="centerY" secondItem="D2R-bJ-2No" secondAttribute="centerY" id="6gB-O5-7ko"/>
+                            <constraint firstItem="eLM-Mx-X5r" firstAttribute="leading" secondItem="D2R-bJ-2No" secondAttribute="trailing" constant="10" id="AIg-lK-K7U"/>
+                            <constraint firstAttribute="trailing" secondItem="eLM-Mx-X5r" secondAttribute="trailing" constant="10" id="GNp-4z-KM8"/>
+                            <constraint firstAttribute="bottom" secondItem="eLM-Mx-X5r" secondAttribute="bottom" constant="5" id="HSf-LI-Yur"/>
+                            <constraint firstAttribute="bottom" secondItem="D2R-bJ-2No" secondAttribute="bottom" constant="3" id="XNR-Fs-YAZ"/>
+                            <constraint firstItem="eLM-Mx-X5r" firstAttribute="top" secondItem="DHg-eR-l40" secondAttribute="top" constant="5" id="f95-m6-3gX"/>
+                            <constraint firstItem="D2R-bJ-2No" firstAttribute="top" secondItem="DHg-eR-l40" secondAttribute="top" constant="3" id="gfK-3j-pjY"/>
+                            <constraint firstItem="D2R-bJ-2No" firstAttribute="leading" secondItem="DHg-eR-l40" secondAttribute="leading" constant="20" id="rlr-tO-poG"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="DHg-eR-l40" secondAttribute="bottom" constant="5" id="D2X-Eq-3we"/>
+                    <constraint firstItem="DHg-eR-l40" firstAttribute="top" secondItem="zIS-9m-cBP" secondAttribute="top" constant="5" id="Yep-sr-EPN"/>
+                    <constraint firstAttribute="trailing" secondItem="DHg-eR-l40" secondAttribute="trailing" constant="10" id="gSF-hI-vW1"/>
+                    <constraint firstItem="DHg-eR-l40" firstAttribute="leading" secondItem="zIS-9m-cBP" secondAttribute="leading" constant="10" id="hix-bZ-KbF"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="backView" destination="DHg-eR-l40" id="c7f-Nj-7b1"/>
+                <outlet property="optionButton" destination="D2R-bJ-2No" id="4Cc-j6-fTZ"/>
+                <outlet property="optionLabel" destination="eLM-Mx-X5r" id="lQ6-fj-Ji4"/>
+            </connections>
+            <point key="canvasLocation" x="-195.5" y="-52"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="tickbox" width="15" height="15"/>
+        <image name="unchecked" width="15" height="15"/>
+    </resources>
+</document>

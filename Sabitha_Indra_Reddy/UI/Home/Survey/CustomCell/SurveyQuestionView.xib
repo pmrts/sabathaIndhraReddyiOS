@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Medium.ttf">
+            <string>Roboto-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="SurveyQuestionView" id="UYM-lL-kJM" customClass="SurveyQuestionView" customModule="LT__Governor" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="UYM-lL-kJM" id="fbb-LE-0OV">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8zj-Te-LsZ">
+                        <rect key="frame" x="10" y="5" width="355" height="33.5"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="16"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="8zj-Te-LsZ" secondAttribute="trailing" constant="10" id="IUe-aj-ENK"/>
+                    <constraint firstAttribute="bottom" secondItem="8zj-Te-LsZ" secondAttribute="bottom" constant="5" id="JkA-uo-0Z6"/>
+                    <constraint firstItem="8zj-Te-LsZ" firstAttribute="top" secondItem="fbb-LE-0OV" secondAttribute="top" constant="5" id="k40-rf-aS0"/>
+                    <constraint firstItem="8zj-Te-LsZ" firstAttribute="leading" secondItem="fbb-LE-0OV" secondAttribute="leading" constant="10" id="owq-sw-B9C"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="questionLabel" destination="8zj-Te-LsZ" id="qKD-ib-SNe"/>
+            </connections>
+            <point key="canvasLocation" x="-99" y="83"/>
+        </tableViewCell>
+    </objects>
+</document>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Medium.ttf">
+            <string>Roboto-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="CongressVideoTableViewCell" rowHeight="150" id="n6s-wG-b7g" customClass="CongressVideoTableViewCell" customModule="D_K_ShivaKumar" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="150"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="n6s-wG-b7g" id="uEn-3o-nN0">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="149.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GMz-jR-cpC">
+                        <rect key="frame" x="1" y="1" width="373" height="147.5"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jpa-kC-Do1">
+                                <rect key="frame" x="55.5" y="0.0" width="1" height="147.5"/>
+                                <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="1" id="ycx-fO-XOQ"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="17 Jan 2018" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8xd-50-dPk">
+                                <rect key="frame" x="1" y="0.0" width="110" height="20"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="110" id="Dn7-bm-YG3"/>
+                                    <constraint firstAttribute="height" constant="20" id="gPT-WI-1Hz"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="9Z0-Io-2RM">
+                                <rect key="frame" x="8.5" y="35" width="95" height="95"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="95" id="pn9-za-baV"/>
+                                    <constraint firstAttribute="height" constant="95" id="uhI-Kv-urB"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0VT-Ug-p6W">
+                                <rect key="frame" x="113" y="0.0" width="255" height="20"/>
+                                <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Represents an item in a UITabBar. Each tab bar item has a title, and image and is used to select a view in a UITabBar." textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6gz-Nc-rYc">
+                                <rect key="frame" x="113.5" y="30" width="254.5" height="18.5"/>
+                                <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="14"/>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Expand" highlightedImage="Hide" translatesAutoresizingMaskIntoConstraints="NO" id="dbI-rY-ru7">
+                                <rect key="frame" x="232" y="129" width="18" height="18"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="18" id="gFk-9J-qwY"/>
+                                    <constraint firstAttribute="width" constant="18" id="jGq-nB-WGZ"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sfa-Jq-ESD">
+                                <rect key="frame" x="41" y="67.5" width="30" height="30"/>
+                                <state key="normal" image="ytube"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="0VT-Ug-p6W" secondAttribute="trailing" constant="5" id="1JH-Q5-0RM"/>
+                            <constraint firstItem="9Z0-Io-2RM" firstAttribute="top" secondItem="8xd-50-dPk" secondAttribute="bottom" constant="15" id="5Z1-QB-HD6"/>
+                            <constraint firstItem="0VT-Ug-p6W" firstAttribute="leading" secondItem="8xd-50-dPk" secondAttribute="trailing" constant="2" id="6b2-3K-OzJ"/>
+                            <constraint firstAttribute="bottom" secondItem="Jpa-kC-Do1" secondAttribute="bottom" id="GvA-8a-bPc"/>
+                            <constraint firstItem="Sfa-Jq-ESD" firstAttribute="centerY" secondItem="9Z0-Io-2RM" secondAttribute="centerY" id="Itd-I7-6PX"/>
+                            <constraint firstItem="Sfa-Jq-ESD" firstAttribute="centerX" secondItem="9Z0-Io-2RM" secondAttribute="centerX" id="T9d-xk-HVP"/>
+                            <constraint firstItem="6gz-Nc-rYc" firstAttribute="top" secondItem="0VT-Ug-p6W" secondAttribute="bottom" constant="10" id="UyM-mf-0Z4"/>
+                            <constraint firstItem="dbI-rY-ru7" firstAttribute="centerX" secondItem="6gz-Nc-rYc" secondAttribute="centerX" id="Wda-WO-DR7"/>
+                            <constraint firstItem="0VT-Ug-p6W" firstAttribute="top" secondItem="GMz-jR-cpC" secondAttribute="top" id="cwL-f1-bGC"/>
+                            <constraint firstAttribute="trailing" secondItem="6gz-Nc-rYc" secondAttribute="trailing" constant="5" id="dee-fi-Ylz"/>
+                            <constraint firstAttribute="bottom" secondItem="dbI-rY-ru7" secondAttribute="bottom" constant="1" id="eVF-8d-Oeu"/>
+                            <constraint firstItem="Jpa-kC-Do1" firstAttribute="centerX" secondItem="8xd-50-dPk" secondAttribute="centerX" id="f1t-fg-lcu"/>
+                            <constraint firstItem="Jpa-kC-Do1" firstAttribute="top" secondItem="GMz-jR-cpC" secondAttribute="top" id="gAq-0F-lje"/>
+                            <constraint firstItem="8xd-50-dPk" firstAttribute="leading" secondItem="GMz-jR-cpC" secondAttribute="leading" constant="1" id="s9x-sh-gfb"/>
+                            <constraint firstItem="9Z0-Io-2RM" firstAttribute="centerX" secondItem="8xd-50-dPk" secondAttribute="centerX" id="ucC-Jx-Nss"/>
+                            <constraint firstItem="dbI-rY-ru7" firstAttribute="top" relation="greaterThanOrEqual" secondItem="6gz-Nc-rYc" secondAttribute="bottom" constant="5" id="voy-Rh-01t"/>
+                            <constraint firstItem="8xd-50-dPk" firstAttribute="top" secondItem="GMz-jR-cpC" secondAttribute="top" id="yMU-Ar-Vze"/>
+                            <constraint firstItem="6gz-Nc-rYc" firstAttribute="leading" secondItem="9Z0-Io-2RM" secondAttribute="trailing" constant="10" id="zhZ-kF-YP4"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="GMz-jR-cpC" secondAttribute="bottom" constant="1" id="AG5-Cb-gci"/>
+                    <constraint firstAttribute="trailing" secondItem="GMz-jR-cpC" secondAttribute="trailing" constant="1" id="YuB-pZ-vPc"/>
+                    <constraint firstItem="GMz-jR-cpC" firstAttribute="top" secondItem="uEn-3o-nN0" secondAttribute="top" constant="1" id="ari-GY-rjQ"/>
+                    <constraint firstItem="GMz-jR-cpC" firstAttribute="leading" secondItem="uEn-3o-nN0" secondAttribute="leading" constant="1" id="p2J-jH-73C"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="playButton" destination="Sfa-Jq-ESD" id="PRs-yu-iAg"/>
+                <outlet property="videoDateLabel" destination="8xd-50-dPk" id="6lj-5D-6oq"/>
+                <outlet property="videoExpandView" destination="dbI-rY-ru7" id="3Kt-nN-BV3"/>
+                <outlet property="videoHeadLabel" destination="0VT-Ug-p6W" id="vFx-iU-gfm"/>
+                <outlet property="videoImageView" destination="9Z0-Io-2RM" id="gFD-RP-01G"/>
+                <outlet property="videoMatterLabel" destination="6gz-Nc-rYc" id="uC5-hW-avB"/>
+            </connections>
+            <point key="canvasLocation" x="26.5" y="-111"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Expand" width="28" height="28"/>
+        <image name="Hide" width="28" height="28"/>
+        <image name="ytube" width="30" height="30"/>
+    </resources>
+</document>

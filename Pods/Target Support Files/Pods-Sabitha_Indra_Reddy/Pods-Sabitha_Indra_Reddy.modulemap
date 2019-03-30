@@ -1,0 +1,6 @@
+framework module Pods_Sabitha_Indra_Reddy {
+  umbrella header "Pods-Sabitha_Indra_Reddy-umbrella.h"
+
+  export *
+  module * { export * }
+}

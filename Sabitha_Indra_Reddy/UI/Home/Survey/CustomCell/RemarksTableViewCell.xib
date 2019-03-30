@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="RemarksTableViewCell" id="TIN-p1-TE9" customClass="RemarksTableViewCell" customModule="Sabitha_Indra_Reddy" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="TIN-p1-TE9" id="1Ra-zF-P20">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="feK-ni-XfM" customClass="KMPlaceholderTextView" customModule="KMPlaceholderTextView">
+                        <rect key="frame" x="5" y="5" width="365" height="33.5"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="string" keyPath="placeholder" value="If you have any Comments. Please Enter Here"/>
+                        </userDefinedRuntimeAttributes>
+                    </textView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="feK-ni-XfM" secondAttribute="bottom" constant="5" id="Hgd-x6-GZz"/>
+                    <constraint firstItem="feK-ni-XfM" firstAttribute="leading" secondItem="1Ra-zF-P20" secondAttribute="leading" constant="5" id="IPG-i7-atF"/>
+                    <constraint firstAttribute="trailing" secondItem="feK-ni-XfM" secondAttribute="trailing" constant="5" id="ScW-f7-mkS"/>
+                    <constraint firstItem="feK-ni-XfM" firstAttribute="top" secondItem="1Ra-zF-P20" secondAttribute="top" constant="5" id="reL-FJ-8ot"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="remarksTextView" destination="feK-ni-XfM" id="dd7-1h-cEO"/>
+            </connections>
+            <point key="canvasLocation" x="-264" y="42"/>
+        </tableViewCell>
+    </objects>
+</document>
